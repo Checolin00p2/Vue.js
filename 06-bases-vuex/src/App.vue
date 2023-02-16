@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <Counter></Counter>
+  <my-counter></my-counter>
   
 </template>
 
@@ -8,10 +8,13 @@
 
 import {defineAsyncComponent} from 'vue'
 
+
 export default {
   name: 'App',
   components: {
-    Counter: defineAsyncComponent(()=>import('@/components/Counter.vue'))
+    MyCounter: defineAsyncComponent(()=>import('@/components/MyCounter.vue'))
+    
+    
   }
 }
 </script>

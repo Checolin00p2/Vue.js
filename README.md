@@ -34,3 +34,12 @@ module.exports = {
 ```sh
 npm install vue-router@4
 ```
+
+## Error sobre el nombre de los componentes
+
+```sh
+  error  Component name "Counter" should always be multi-word  vue/multi-word-component-names
+```
+
+# Es necesario cambiar el nombre de tus componentes a 2 palabras, por ejemplo de Cunter a MyCounter
+# Adicional a esto debes volver a cargar el proyecto por que si estas en el modo de desarrollo no va actulizar los cambios
