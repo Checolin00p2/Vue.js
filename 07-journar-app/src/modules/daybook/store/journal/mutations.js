@@ -22,3 +22,6 @@ export const delEntry =  (state,id)=>{
     state.entries= state.entries.filter(entry => entry.id !== id) //ojito para reguardar entries exceptop el del id
 
 }
+export const clearEntries = ( state ) => {
+    state.entries = []
+}
